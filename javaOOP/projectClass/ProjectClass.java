@@ -17,7 +17,7 @@ public class ProjectClass{
     this.description = description;
   }
 
-  public string getProjectName(){
+  public String getProjectName(){
     return this.name;
   }
 
@@ -25,11 +25,11 @@ public class ProjectClass{
     this.name = projectName;
   }
 
-  public string getProjectDesc(){
+  public String getProjectDesc(){
     return this.description;
   }
 
-  public string setProjectDesc(String projectDesc){
+  public String setProjectDesc(String projectDesc){
     this.description = projectDesc;
   }
 
